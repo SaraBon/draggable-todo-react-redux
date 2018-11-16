@@ -1,0 +1,161 @@
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.containerToDo {
+  margin: auto;
+  padding-top: 20px;
+  width: 350px;
+  height: 550px;
+  background: linear-gradient(to bottom, #236185 0%,#a78a78 80%,#786e85 100%);
+  border-radius: 5px;
+}
+
+.innerContainerToDo {
+  margin:20px 40px 20px 20px;
+  height: 370px;
+  padding-left: 30px;
+  padding-right: 10px;
+  flex-direction: column;
+  overflow-y: scroll;
+
+}
+
+.innerContainerSubmit {
+  margin:40px 40px 20px 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  height:50px;
+}
+
+.toDoWrap{
+  position: relative;
+  display:flex;
+  margin-bottom: 15px;
+}
+
+.toDoWrap:hover .actionButton {
+  display: block;
+}
+
+.toDoWrap:hover .iconDrag {
+  display: block;
+}
+
+.form {
+display:flex;
+flex-direction: row;
+}
+
+.input {
+  min-height: 40px;
+  width: 80%;
+  background-color: rgba(52,63,78, 0.3);
+  border-radius: 3px;
+  color: white;
+  border:none;
+  padding-left: 7px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+}
+
+.innerContainerToDo .input:hover {
+    cursor: pointer;
+}
+
+.inputDragged {
+  min-height: 40px;
+  width: 80%;
+  background-color: rgba(52,63,78, 0.3);
+  border-radius: 3px;
+  color: white;
+  border:none;
+  float:left;
+  padding-left: 7px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid #bc8462;
+  word-break: break-all;
+}
+
+.inputSubmit {
+  height: 40px;
+  width: 80%;
+  background-color: rgba(52,63,78, 0.3);
+  border-radius: 3px;
+  color: white;
+  border:none;
+  float:left;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+.actionButton {
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgba(0,0,255,0);
+  color: white;
+  border:none;
+}
+
+.innerContainerToDo .actionButton {
+  display:none;
+}
+
+
+.icon {
+  opacity: 0.8;
+  color: white;
+  font-size: 20px;
+}
+
+.innerContainerToDo .icon:hover {
+  opacity: 1;
+}
+
+.iconDrag {
+display: none;
+opacity: 0.3;
+  color: white;
+  font-size: 20px;
+  position:absolute;
+  left: -15px;
+  height: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+    opacity: 0.2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(52,63,78, 0.3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(52,63,78, 0.6);
+}
+
+button {
+  cursor:pointer;
+}
+
+.appName {
+  color:white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin:20px 40px 20px 20px;
+  padding-left: 30px;
+}
