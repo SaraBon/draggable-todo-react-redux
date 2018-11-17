@@ -1,13 +1,13 @@
 {
-  "main.css": "/draggable-todo-react-redux/static/css/main.e4b007bb.chunk.css",
-  "main.js": "/draggable-todo-react-redux/static/js/main.edfdf86e.chunk.js",
-  "main.js.map": "/draggable-todo-react-redux/static/js/main.edfdf86e.chunk.js.map",
-  "static/js/1.6fe210ae.chunk.js": "/draggable-todo-react-redux/static/js/1.6fe210ae.chunk.js",
-  "static/js/1.6fe210ae.chunk.js.map": "/draggable-todo-react-redux/static/js/1.6fe210ae.chunk.js.map",
+  "main.css": "/draggable-todo-react-redux/static/css/main.f4d0be98.chunk.css",
+  "main.js": "/draggable-todo-react-redux/static/js/main.2f1257e7.chunk.js",
+  "main.js.map": "/draggable-todo-react-redux/static/js/main.2f1257e7.chunk.js.map",
+  "static/js/1.94f7040c.chunk.js": "/draggable-todo-react-redux/static/js/1.94f7040c.chunk.js",
+  "static/js/1.94f7040c.chunk.js.map": "/draggable-todo-react-redux/static/js/1.94f7040c.chunk.js.map",
   "runtime~main.js": "/draggable-todo-react-redux/static/js/runtime~main.41d598e2.js",
   "runtime~main.js.map": "/draggable-todo-react-redux/static/js/runtime~main.41d598e2.js.map",
-  "static/css/main.e4b007bb.chunk.css.map": "/draggable-todo-react-redux/static/css/main.e4b007bb.chunk.css.map",
+  "static/css/main.f4d0be98.chunk.css.map": "/draggable-todo-react-redux/static/css/main.f4d0be98.chunk.css.map",
   "index.html": "/draggable-todo-react-redux/index.html",
-  "precache-manifest.7b735f03081961af8e683a42ed8afae7.js": "/draggable-todo-react-redux/precache-manifest.7b735f03081961af8e683a42ed8afae7.js",
+  "precache-manifest.c3089d6552eba02678c4a2bc5df73367.js": "/draggable-todo-react-redux/precache-manifest.c3089d6552eba02678c4a2bc5df73367.js",
   "service-worker.js": "/draggable-todo-react-redux/service-worker.js"
 }

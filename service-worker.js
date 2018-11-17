@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/draggable-todo-react-redux/precache-manifest.7b735f03081961af8e683a42ed8afae7.js"
+  "/draggable-todo-react-redux/precache-manifest.c3089d6552eba02678c4a2bc5df73367.js"
 );
 
 workbox.clientsClaim();
